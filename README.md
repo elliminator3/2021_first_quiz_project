@@ -1,1 +1,1 @@
-This was my first project after completing an e-learning course in Web Development in 2021. Before this, I had no experience with coding. This project is really badly coded and the UI is really ugly but it's fun to look back and see how much progress I've made since then haha
+This was my first project after starting an e-learning course in Web Development in 2021. Before this, I had no experience with coding. This project is really badly coded and the UI is really ugly but it's fun to look back and see how much progress I've made since then haha
