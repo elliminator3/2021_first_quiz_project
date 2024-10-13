@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Musik-Quiz von Elli.W, Nicole.P, Kim.N</title>
+      <meta charset="UTF-8" />
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    
+        
+        <div class="buttons">
+            <button class="restart" id="go-btn">Get started!</button>
+        </div>
+   
+
+      <!--Quiz Box-->
+      <div class="hide" id="quiz_box">
+      <div class="quiz_box">
+        <header> <div class="title">Ready to test your music knowledge?</div>
+          <div class="score">
+            <div class="score_text">Deine Punkte:</div>
+            <div class="score_number" id="score_number"><span>0</span></div>
+          </div>
+        </header>
+        <section>
+         
+           <!--Question Box --> 
+            <div class="que_text" id="que_tex">
+              <span>Frage</span>
+            </div>
+        <div id="option_list">
+          <div class="option">Antwort 1</div>
+          <div class="option">Antwort 2</div>
+          <div class="option">Antwort 3</div>
+          <div class="option">Antwort 4</div>
+        </div>
+      </section>
+        <!--footer-->
+        <footer>
+          <div class="total_que" id="total_que">
+            <span>1/10</span>
+          </div>
+            <div class="next_btn">
+              <button id="next_btn">Nächste Frage</button>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+      
+      <!--Results-->
+      <div class="hide" id="result_box">
+      <div class="result_box">  
+      <div class="score_text" id="score_text" >Du hast<span>&nbsp; 0 &nbsp;</span> Punkte erreicht. </div>
+      <div class="result_btn">
+      <div class="replay" ><button onclick="window.location.reload(true)">Quiz wiederholen</button></div>
+      
+    
+    </div>
+    </div>
+    </div>
+      <script src="data.js"></script>
+    
+  </body>
+  </html>
