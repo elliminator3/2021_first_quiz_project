@@ -1,0 +1,1 @@
+This was the first project I did after taking my first e-learning class in Web Development in 2021. I have never had any touch points with coding before this project. This project is really badly coded and the UI is really ugly but it's nice to see how far i have come until then haha. 
